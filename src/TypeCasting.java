@@ -40,6 +40,7 @@ public class TypeCasting {
         float f = 5.67f;
         double d = 0.1234;
         double result = (f * b) + (i / c) - (d-s);
+        //float + int - double = double
         System.out.println((f * b) + " " +(i / c) +" " +(d -s));
         System.out.println(result);
 
